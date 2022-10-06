@@ -1,0 +1,104 @@
+body {
+    font-family: "Lato", serif;
+    color: #424551;
+}
+[class*="__container"]{
+    max-width: 810px;
+    margin: 0 auto;
+}
+.page {}
+.page__container {}
+.title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+.image {
+    margin-bottom: 60px;
+}
+.image img{
+    max-width: 100%;
+}
+.page__text-bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.page__text{
+    line-height: 160%;
+    margin-bottom: 48px;
+}
+.page__text p{
+    margin-bottom: 24px;
+}
+.page__text ul {
+    padding-left: 16px;
+    margin-bottom: 24px;
+}
+.page__text-quote {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 48px;
+    padding-left: 58px;
+}
+/* |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+.practice {
+    border-top: 5px solid #000;
+}
+.block {}
+.block__container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.block__background-color{
+    padding: 15px;
+    background-color:aqua;
+    margin-bottom: 15px;
+}
+.block__background-image {
+    padding: 15px;
+    background-image: url("../img/1528641369_23.jpg");
+    background-repeat: repeat-y;
+    margin-bottom: 15px;
+}
+.block__background-linear-gradient {
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(23, 80, 18, 1) 32%, rgba(34, 121, 9, 1) 59%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    margin-bottom: 15px;
+}
+.block__background-position {
+    padding: 15px;
+    background-image: url("../img/1528641369_23.jpg");
+    background-position: 120px 0;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+.block__background-attachment {
+    padding: 15px;
+    border: 5px solid darkblue;
+    background-image: url("../img/image.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+.block__background-size {
+    padding: 15px;
+    background-image: url("../img/1528641369_23.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+.block__background-more-one {
+    padding: 15px;
+    background: url("../img/1528641369_23.jpg") no-repeat left top / 550px, url("../img/1528641369_23.jpg") no-repeat right top / 100px, rgba(117, 117, 204, 0.73);
+    margin-bottom: 15px;
+}
